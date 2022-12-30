@@ -22,7 +22,7 @@ ami-nginx = "ami-0b0fd9a5b3960debe"
 
 ami-bastion = "ami-0b0ff76447965a563"
 
-ami-ubuntu = "ami-01af6c3d8bb466981"
+ami-sonar = "ami-01af6c3d8bb466981"
 
 
 keypair = "IML-keypair"
