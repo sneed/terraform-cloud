@@ -16,7 +16,14 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami = "ami-0a6b2839d44d781b2"
+ami-web = "ami-09cb79ffc3090da7c"
+
+ami-nginx = "ami-0b0fd9a5b3960debe"
+
+ami-bastion = "ami-0b0ff76447965a563"
+
+ami-ubuntu = "ami-01af6c3d8bb466981"
+
 
 keypair = "IML-keypair"
 
