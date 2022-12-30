@@ -9,3 +9,13 @@
    }
  }
 */
+
+terraform {
+  backend "remote" {
+    organization = "pisitis"
+
+    workspaces {
+      name = "PBL-19"
+    }
+  }
+}

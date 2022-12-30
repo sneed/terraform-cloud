@@ -36,7 +36,7 @@ resource "aws_launch_template" "wordpress-launch-template" {
 }
 
 
-# launch template for toooling
+# launch template for tooling
 resource "aws_launch_template" "tooling-launch-template" {
   image_id               = var.ami-web
   instance_type          = "t2.micro"
@@ -69,7 +69,7 @@ resource "aws_launch_template" "tooling-launch-template" {
     )
   }
 
-  user_data = filebase64("${path.module}/tooling.sh")
+#  user_data = filebase64("${path.module}/tooling.sh")
 }
 
 
