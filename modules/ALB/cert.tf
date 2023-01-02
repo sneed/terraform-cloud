@@ -37,7 +37,7 @@ resource "aws_acm_certificate_validation" "tooling" {
 }
 
 # create records for tooling
-resource "aws_route53_record" "tool" {
+resource "aws_route53_record" "tooling" {
   zone_id = data.aws_route53_zone.tooling_zone.zone_id
   name    = "tooling.tooling.life"
   type    = "A"
